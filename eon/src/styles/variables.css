@@ -1,49 +1,140 @@
 :root{
-    /* Colors */
-    --color-primary: #363636;
-    --color-secondary: #242F40;
-    --color-accent: #CCA43B;
-    --color-light: #E5E5E5;
+
+/* ======================================================
+   PRIMITIVE TOKENS
+====================================================== */
+    --color-blue-900: #242F40;
+    --color-gray-900: #363636;
+    --color-gray-200: #E5E5E5;
     --color-white: #FFFFFF;
+    --color-gold-500: #CCA43B;
 
-    /* Fonts */
+/* ======================================================
+   SEMANTIC TOKENS
+====================================================== */
+
+    /* Brand */
+    --color-primary: var(--color-blue-900);
+    --color-accent: var(--color-gold-500);
+
+
+    /* Surface */
+    --color-background: var(--color-white);
+    --color-surface: var(--color-gray-200);
+    --color-surface-alt: var(--color-blue-900);
+
+
+    /* Text */
+    --color-text-primary: var(--color-gray-900);
+    --color-text-secondary: var(--color-blue-900);
+    --color-text-inverse: var(--color-white);
+
+
+    /* Border */
+    --color-border: var(--color-gray-200);
+    --color-border-strong: var(--color-gray-900);
+
+
+/* ======================================================
+     TYPOGRAPHY
+====================================================== */
+
+    /* Font Family */
+
     --font-heading: "Clash Display", sans-serif;
     --font-body: "Inter Tight", sans-serif;
 
+    /* Font Size */
 
-/* TYPOGRAPHY */
+    --font-size-display: 6rem;
+    --font-size-h1: 4rem;
+    --font-size-h2: 3rem;
+    --font-size-h3: 2rem;
+    --font-size-h4: 1.5rem;
 
-    --font-heading: "Clash Display", sans-serif;
-    --font-body: "Inter Tight", sans-serif;
+    --font-size-lead: 1.5rem;
+    --font-size-body: 1rem;
+    --font-size-small: .875rem;
+    --font-size-caption: .75rem;
 
-/* CONTAINER */
+    /* Font Weight */
 
-    --container-width: 1200px;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
 
-/* SPACING */
+    /* Line Height */
 
-    --space-xs: .5rem;
-    --space-sm: 1rem;
-    --space-md: 2rem;
-    --space-lg: 4rem;
-    --space-xl: 6rem;
-    --space-xxl: 8rem;
+    --line-height-tight: 1.1;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.8;
 
-/* BORDER */
+    /* Letter Spacing */
 
-    --radius-sm: 8px;
-    --radius-md: 16px;
-    --radius-lg: 24px;
+    --letter-spacing-tight: -0.04em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: .08em;
+
+
+/* ======================================================
+     SPACING
+====================================================== */
+
+    --space-1: .25rem;
+    --space-2: .5rem;
+    --space-3: .75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-7: 3rem;
+    --space-8: 4rem;
+    --space-9: 6rem;
+    --space-10: 8rem;
+
+/* ======================================================
+     BORDER RADIUS
+====================================================== */
+
+    --radius-sm: .25rem;
+    --radius-md: .5rem;
+    --radius-lg: 1rem;
+    --radius-xl: 2rem;
     --radius-pill: 999px;
 
-/* TRANSITION */
+/* ======================================================
+     SHADOWS
+====================================================== */
 
-    --transition-fast: .25s ease;
-    --transition-default: .35s ease;
+    --shadow-sm:
+    0 2px 8px rgba(0,0,0,.08);
+
+    --shadow-md:
+    0 8px 24px rgba(0,0,0,.12);
+
+    --shadow-lg:
+    0 16px 48px rgba(0,0,0,.16);
+
+/* ======================================================
+     TRANSITIONS
+====================================================== */
+
+    --transition-fast: .2s ease;
+    --transition-default: .3s ease;
     --transition-slow: .5s ease;
 
-/* SHADOW */
-    --shadow-sm: 0 6px 20px rgba(0,0,0,.05);
-    --shadow-md: 0 12px 32px rgba(0,0,0,.08);
+/* ======================================================
+     LAYOUT
+====================================================== */
+    --container-max-width: 1200px;
+    --container-padding: var(--space-4);
+    --section-spacing: var(--space-10);
 
+/* ======================================================
+     Z-INDEX
+====================================================== */
+    --z-base: 1;
+    --z-header: 100;
+    --z-menu: 200;
+    --z-modal: 1000;
 }
