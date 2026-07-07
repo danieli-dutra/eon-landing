@@ -1,6 +1,6 @@
 # EON — Arquitetura da Experiência
 
-> Versão: 1.0
+> Versão: 1.1
 > Status: Oficial
 > Última atualização: Julho de 2026
 
@@ -8,7 +8,9 @@
 
 # Objetivo
 
-Este documento descreve como a Landing Page da EON organiza sua narrativa, conduz o usuário durante a navegação e transforma uma simples página institucional em uma experiência memorável.
+Este documento descreve como a Landing Page da EON conduz o visitante através de uma narrativa cuidadosamente construída.
+
+Mais do que apresentar uma marca, a experiência desperta curiosidade, revela uma filosofia e convida o usuário a fazer parte de uma ideia.
 
 A arquitetura da experiência não define o design visual nem a implementação técnica.
 
@@ -18,21 +20,27 @@ Ela define a intenção de cada etapa da jornada.
 
 # Princípio Fundamental
 
-A EON não apresenta informações.
+A EON não apresenta uma empresa.
 
 Ela conduz uma descoberta.
 
-Cada seção existe para responder uma única pergunta do usuário.
+Cada seção existe para responder uma pergunta enquanto desperta naturalmente a próxima.
 
-Ao responder essa pergunta, uma nova curiosidade deve surgir naturalmente.
+O visitante nunca recebe todas as respostas imediatamente.
 
-Essa sequência mantém o interesse durante toda a navegação.
+A experiência é construída através da curiosidade.
+
+Primeiro vem a descoberta.
+
+Depois a compreensão.
+
+Somente então surge o convite.
 
 ---
 
 # Jornada da Experiência
 
-A Landing Page é construída como uma narrativa composta por seis capítulos.
+A Landing Page é construída como uma narrativa composta por capítulos.
 
 Cada capítulo possui um objetivo específico.
 
@@ -44,11 +52,15 @@ Cada capítulo possui um objetivo específico.
 
 Despertar curiosidade.
 
-Não explicar.
+O visitante ainda não sabe o que é a EON.
 
-O visitante ainda não precisa entender exatamente o que é a EON.
+E isso é intencional.
 
-Ele apenas precisa sentir que existe algo diferente.
+O Hero não apresenta uma empresa.
+
+Ele apresenta uma sensação.
+
+A identidade completa da marca ainda permanece oculta.
 
 ---
 
@@ -62,21 +74,26 @@ Ele apenas precisa sentir que existe algo diferente.
 
 ## Elementos
 
-- Logo
-- Headline principal
-- Subheadline
-- Call To Action
-- Navegação discreta
+- EON Symbol
+- Headline editorial
+- Texto introdutório
+- Primary CTA
+- Indicador de scroll
+
+A identidade completa da EON ainda não é revelada.
+
+O símbolo representa apenas o início da descoberta.
 
 ---
 
 ## Sensação
 
+Curiosidade.
+
 Silêncio.
 
-Espaço.
+Expectativa.
 
-Confiança.
 
 ---
 
@@ -160,13 +177,13 @@ Propósito.
 
 ## Objetivo
 
-Quebrar o ritmo da leitura.
-
 Criar uma pausa emocional.
 
-Esta seção existe mais pela atmosfera do que pelo conteúdo.
+Diminuir o ritmo da leitura.
 
-Ela marca a transição entre inspiração e participação.
+Preparar o visitante para a revelação final.
+
+Mais do que apresentar conteúdo, esta seção muda a atmosfera da experiência.
 
 ---
 
@@ -193,42 +210,49 @@ Presença.
 
 ---
 
-# Capítulo 05 — Join the Era
+# Capítulo 05 — Revelação
 
 ## Objetivo
 
-Convidar o visitante a fazer parte da história.
+Concluir a narrativa.
 
-O CTA acontece apenas depois que toda a narrativa foi construída.
+Depois de toda a jornada, o visitante finalmente descobre a identidade completa da EON.
 
-Não existe pressão.
+A marca deixa de ser apenas um símbolo.
 
-Existe convite.
+Agora ela possui significado.
+
+Somente após essa revelação acontece o convite.
 
 ---
 
 ## O usuário pensa
 
-"Quero acompanhar essa ideia."
+"Agora tudo faz sentido."
 
 ---
 
 ## Elementos
 
-- Formulário
-- Nome
-- Email
-- CEP
-- Cidade preenchida automaticamente pela API ViaCEP
-- Botão principal
+- Texto "THIS IS..."
+- Revelação da logomarca EON
+- Frase de assinatura
+
+We don't build trends.
+
+We build what comes next.
+
+- CTA principal
 
 ---
 
 ## Sensação
 
+Descoberta.
+
 Pertencimento.
 
-Participação.
+Inspiração.
 
 ---
 
@@ -254,9 +278,7 @@ Sem distrações.
 
 ## Elementos
 
-- Logo
-- Navegação
-- Redes sociais
+- Logomarca EON
 - Copyright
 
 ---
@@ -422,6 +444,10 @@ Confiança
 
 ↓
 
+Revelação
+
+↓
+
 Pertencimento
 
 ↓
@@ -438,13 +464,14 @@ O objetivo é terminar em:
 
 # Definição de Sucesso
 
-A Landing Page da EON será considerada bem-sucedida quando:
+A Landing Page será considerada bem-sucedida quando o visitante:
 
-- despertar curiosidade nos primeiros segundos;
-- manter o interesse durante toda a navegação;
-- apresentar uma identidade visual consistente;
-- conduzir o usuário naturalmente até o CTA;
-- transmitir sofisticação sem excesso;
-- permanecer na memória mesmo após o encerramento da visita.
+- sentir curiosidade nos primeiros segundos;
+- permanecer navegando naturalmente;
+- compreender a filosofia antes da marca;
+- reconhecer a identidade da EON como consequência da narrativa;
+- desejar acompanhar o projeto após a experiência.
 
-A experiência deve ser percebida como uma história, não como uma sequência de seções.
+A Landing não deve ser percebida como uma sequência de seções.
+
+Ela deve ser lembrada como uma história.
