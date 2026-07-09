@@ -1,6 +1,6 @@
 # EON — Direção Criativa
 
-> Versão: 1.0  
+> Versão: 1.1  
 > Status: Oficial  
 > Última atualização: Julho de 2026
 
@@ -8,27 +8,563 @@
 
 # Visão Geral
 
-A EON não é apenas uma empresa de tecnologia.
+# EON — Direção Criativa
 
-A EON representa uma forma de pensar.
+> Versão: 1.1
+> Status: Oficial
+> Última atualização: Julho de 2026
 
-Ela nasce da ideia de que grandes produtos não são construídos para acompanhar tendências, mas para permanecer relevantes ao longo do tempo.
+---
 
-A tecnologia é apenas o meio.
+# Visão Geral
 
-O verdadeiro produto é a maneira como as pessoas enxergam o futuro.
+A EON não é uma empresa.
+
+Também não é apenas um estúdio de design.
+
+A EON nasce como uma ideia.
+
+Uma filosofia sobre construir experiências que permaneçam relevantes ao longo do tempo.
+
+Tecnologia é ferramenta.
+
+Design é linguagem.
+
+O verdadeiro produto é a forma como as pessoas enxergam o futuro.
+
+A Landing Page não existe para explicar isso imediatamente.
+
+Ela existe para que essa descoberta aconteça naturalmente.
 
 ---
 
 # Essência da Marca
 
-Inspirar pessoas a construir com intenção.
+A EON inspira pessoas a construir com intenção.
 
-Questionar o óbvio.
+Ela acredita que:
 
-Valorizar qualidade acima de velocidade.
+- qualidade supera velocidade;
+- profundidade supera tendência;
+- clareza supera excesso;
+- permanência supera novidade.
 
-Criar experiências que resistam ao tempo.
+A marca não acompanha movimentos.
+
+Ela procura criar aquilo que permanece quando eles passam.
+
+---
+
+# Visão
+
+Construir experiências digitais capazes de atravessar o tempo.
+
+Não através da complexidade.
+
+Mas através de propósito, consistência e evolução contínua.
+
+---
+
+# Personalidade da Marca
+
+A EON transmite:
+
+- Inteligência
+- Precisão
+- Elegância
+- Curiosidade
+- Confiança
+- Sofisticação
+- Minimalismo
+- Atemporalidade
+
+Nunca transmite:
+
+- Barulho visual
+- Urgência artificial
+- Aparência corporativa
+- Excesso de informação
+- Tendências passageiras
+- Marketing agressivo
+
+---
+
+# Objetivos Emocionais
+
+Ao navegar pela EON, o visitante deve sentir:
+
+1. Curiosidade
+2. Descoberta
+3. Reflexão
+4. Confiança
+5. Pertencimento
+
+O objetivo nunca é impressionar imediatamente.
+
+O objetivo é permanecer na memória.
+
+---
+
+# Princípios Fundamentais
+
+## 1. Curiosidade antes da explicação
+
+A primeira impressão nunca responde todas as perguntas.
+
+Ela cria novas perguntas.
+
+O visitante deve querer continuar.
+
+---
+
+## 2. Menos elementos. Mais significado.
+
+Cada elemento possui um propósito.
+
+Nada existe apenas para decorar.
+
+Sempre que um componente não acrescentar significado, ele deve ser removido.
+
+---
+
+## 3. A tipografia é protagonista
+
+As palavras são o principal recurso visual da EON.
+
+Imagens existem para reforçar a narrativa.
+
+Nunca para substituí-la.
+
+---
+
+## 4. O espaço em branco comunica
+
+O vazio faz parte da composição.
+
+Ele cria ritmo.
+
+Cria silêncio.
+
+Cria expectativa.
+
+A interface deve respirar.
+
+---
+
+## 5. Movimento comunica intenção
+
+Nenhuma animação existe apenas porque é bonita.
+
+Toda animação deve ajudar a revelar uma ideia.
+
+Movimento é linguagem.
+
+Não decoração.
+
+---
+
+## 6. Consistência gera confiança
+
+Toda decisão visual faz parte de um único sistema.
+
+Espaçamentos.
+
+Tipografia.
+
+Cores.
+
+Movimentos.
+
+Composição.
+
+Tudo deve parecer pertencer ao mesmo universo.
+
+---
+
+# Conceito Central
+
+## Tempo
+
+Tempo não é relógio.
+
+Tempo não é calendário.
+
+Tempo representa:
+
+- construção;
+- evolução;
+- permanência;
+- legado.
+
+Toda decisão da EON deve reforçar essa ideia.
+
+---
+
+# Filosofia Narrativa
+
+A Landing Page não apresenta uma empresa.
+
+Ela conduz uma descoberta.
+
+O visitante percorre uma narrativa.
+
+Ao final dessa narrativa ele entende o que é a EON.
+
+A identidade completa nunca aparece imediatamente.
+
+Ela é conquistada.
+
+---
+
+# Estrutura Narrativa
+
+A Landing Page funciona como uma história.
+
+Cada seção representa um capítulo.
+
+## Ato I — Descoberta
+
+Existe algo aqui.
+
+Ainda não sabemos exatamente o quê.
+
+O objetivo é despertar curiosidade.
+
+---
+
+## Ato II — Manifesto
+
+A filosofia começa a aparecer.
+
+Não falamos sobre serviços.
+
+Falamos sobre ideias.
+
+---
+
+## Ato III — Princípios
+
+A inspiração ganha estrutura.
+
+Os valores tornam-se claros.
+
+---
+
+## Ato IV — Contraste
+
+O ritmo desacelera.
+
+O visitante respira.
+
+A experiência ganha profundidade.
+
+---
+
+## Ato V — Revelação
+
+A identidade finalmente é apresentada.
+
+THIS IS...
+
+EON.
+
+A marca deixa de ser um nome.
+
+Passa a representar tudo o que foi construído até aqui.
+
+---
+
+## Ato VI — Convite
+
+We don't build trends.
+
+We build what comes next.
+
+Join the Era.
+
+O CTA encerra a narrativa.
+
+Nunca interrompe.
+
+---
+
+# Linguagem Visual
+
+A identidade visual da EON deve transmitir:
+
+- Minimalismo
+- Editorial
+- Sofisticação
+- Atemporalidade
+- Clareza
+- Precisão
+
+Características principais:
+
+- tipografia em grande escala;
+- grandes áreas de respiro;
+- poucos elementos gráficos;
+- contraste elevado;
+- ritmo consistente;
+- composição editorial.
+
+---
+
+# Tipografia
+
+## Headings
+
+Clash Display.
+
+É a voz da marca.
+
+Possui presença.
+
+Personalidade.
+
+Confiança.
+
+---
+
+## Texto
+
+Inter Tight.
+
+Neutra.
+
+Legível.
+
+Funcional.
+
+Seu papel é apoiar a narrativa.
+
+Nunca competir com ela.
+
+---
+
+# Filosofia das Cores
+
+## Dark Mode
+
+A experiência principal da EON.
+
+Representa:
+
+- descoberta;
+- silêncio;
+- profundidade;
+- futuro.
+
+---
+
+## Light Mode (Planejado)
+
+Uma segunda interpretação da mesma experiência.
+
+Representa:
+
+- clareza;
+- construção;
+- materialização.
+
+Não é uma versão diferente.
+
+É outra perspectiva da mesma narrativa.
+
+---
+
+## Azul Profundo
+
+Representa estabilidade.
+
+Precisão.
+
+Inteligência.
+
+---
+
+## Dourado
+
+Representa significado.
+
+Nunca deve aparecer em excesso.
+
+Sua função é destacar momentos importantes da narrativa.
+
+---
+
+# Identidade
+
+O símbolo aparece antes da marca.
+
+A marca aparece antes da explicação.
+
+A explicação aparece antes do convite.
+
+Essa sequência nunca deve ser invertida.
+
+---
+
+# Movimento
+
+Todo conteúdo deve ser revelado.
+
+Nunca simplesmente aparecer.
+
+Priorizar:
+
+- Fade
+- Reveal
+- Slide
+- Scale suave
+
+Evitar:
+
+- Bounce
+- Flash
+- Loops infinitos
+- Animações exageradas
+
+---
+
+# Copywriting
+
+Escrever menos.
+
+Comunicar mais.
+
+Evitar:
+
+- clichês;
+- buzzwords;
+- excesso de adjetivos;
+- promessas exageradas.
+
+As frases devem ser:
+
+- curtas;
+- memoráveis;
+- naturais;
+- editoriais.
+
+---
+
+# Composição
+
+Cada seção deve parecer um novo capítulo.
+
+A Landing nunca deve transmitir repetição.
+
+O ritmo visual alterna entre:
+
+- intensidade;
+- silêncio;
+- pausa;
+- impacto.
+
+---
+
+# Elementos de Assinatura
+
+A identidade da EON é construída pela repetição de pequenos detalhes.
+
+Entre eles:
+
+- EON Symbol;
+- tipografia monumental;
+- linhas douradas discretas;
+- grandes áreas de respiro;
+- ritmo editorial;
+- revelação gradual da identidade.
+
+---
+
+# Princípios de UX
+
+A interface nunca compete com o conteúdo.
+
+O usuário sempre sabe onde olhar.
+
+A navegação acompanha a história.
+
+Não a interrompe.
+
+---
+
+# Acessibilidade
+
+Toda decisão deve respeitar:
+
+- HTML semântico;
+- contraste adequado;
+- foco visível;
+- navegação por teclado;
+- tipografia responsiva;
+- textos alternativos;
+- suporte à redução de movimento.
+
+---
+
+# O que a EON não é
+
+A EON nunca será:
+
+- apenas mais uma landing;
+- uma vitrine de efeitos;
+- uma coleção de tendências;
+- uma interface barulhenta;
+- uma página institucional comum.
+
+Ela existe para criar uma experiência memorável.
+
+---
+
+# Critério de Qualidade
+
+Antes de qualquer decisão de design, desenvolvimento ou conteúdo, responder:
+
+> Esta decisão aproxima a EON de uma experiência memorável?
+
+Se a resposta for não, ela não pertence ao projeto.
+
+---
+
+# Objetivo Final
+
+Quando alguém terminar de navegar pela EON, não queremos que essa pessoa se lembre apenas da interface.
+
+Nem das animações.
+
+Nem das cores.
+
+Queremos que ela se lembre da sensação.
+
+Da curiosidade.
+
+Da calma.
+
+Da clareza.
+
+E da impressão de que acabou de descobrir algo que ainda está começando.
+
+Essa é a essência da EON.
+
+---
+
+# Essência da Marca
+
+A EON inspira pessoas a construir com intenção.
+
+Ela acredita que:
+
+- qualidade supera velocidade;
+- profundidade supera tendência;
+- clareza supera excesso;
+- permanência supera novidade.
+
+A marca não acompanha movimentos.
+
+Ela procura criar aquilo que permanece quando eles passam.
 
 ---
 
@@ -36,21 +572,23 @@ Criar experiências que resistam ao tempo.
 
 Construir experiências digitais que transcendam tendências.
 
-A EON acredita que inovação não significa fazer mais rápido, mas fazer melhor, com clareza, propósito e evolução constante.
+Não através da complexidade.
+
+Mas através de propósito, consistência e evolução contínua.
 
 ---
 
 # Personalidade da Marca
 
-A marca deve transmitir:
+A EON transmite:
 
 - Inteligência
 - Precisão
+- Elegância
 - Sofisticação
 - Curiosidade
 - Confiança
 - Atemporalidade
-- Elegância
 - Minimalismo
 
 A marca nunca deve transmitir:
@@ -58,9 +596,9 @@ A marca nunca deve transmitir:
 - Excesso de informação
 - Barulho visual
 - Urgência artificial
-- Sensação corporativa
-- Aparência genérica
+- Aparência corporativa
 - Exagero tecnológico
+- Marketing agressivo
 
 ---
 
@@ -72,7 +610,7 @@ Ao navegar pela EON, a experiência deve despertar:
 2. Descoberta
 3. Reflexão
 4. Confiança
-5. Inspiração
+5. Pertencimento
 
 O objetivo não é impressionar imediatamente.
 
@@ -94,9 +632,11 @@ O visitante deve sentir vontade de continuar explorando.
 
 ## 2. Menos elementos. Mais significado.
 
-Cada elemento da interface deve possuir uma justificativa.
+Cada elemento possui um propósito.
 
-Se um componente não melhora a comunicação ou a experiência, ele deve ser removido.
+Nada existe apenas para decorar.
+
+Sempre que um componente não acrescentar significado, ele deve ser removido.
 
 ---
 
@@ -112,9 +652,9 @@ Nunca a substituem.
 
 ## 4. O espaço em branco comunica
 
-O espaço vazio não representa ausência.
+O vazio faz parte da composição.
 
-Ele cria ritmo, foco e equilíbrio.
+Ele cria ritmo, silêncio e expectativa.
 
 A interface deve respirar.
 
@@ -136,13 +676,13 @@ Espaçamentos.
 
 Tipografia.
 
-Alinhamentos.
-
 Cores.
 
 Movimentos.
 
-Tudo faz parte de um único sistema visual.
+Composição.
+
+Tudo deve parecer pertencer ao mesmo universo.
 
 ---
 
@@ -169,21 +709,35 @@ Ela comunica continuidade.
 
 ---
 
-# Arquitetura Narrativa
+# Filosofia Narrativa
 
-A Landing Page é estruturada como uma história.
+A Landing Page não apresenta uma empresa.
 
-Cada seção representa um capítulo.
+Ela conduz uma descoberta.
+
+O visitante percorre uma narrativa.
+
+Ao final dessa narrativa ele entende o que é a EON.
+
+A identidade completa nunca aparece imediatamente.
+
+Ela é conquistada.
 
 ---
 
-## Ato I — Chegada
+# Estrutura Narrativa
 
-O visitante conhece a marca.
+A Landing Page funciona como uma história.
 
-Nada é explicado completamente.
+Cada seção representa um capítulo.
 
-O objetivo é gerar curiosidade.
+## Ato I — Descoberta
+
+Existe algo aqui.
+
+Ainda não sabemos exatamente o quê.
+
+O objetivo é despertar curiosidade.
 
 ---
 
@@ -197,47 +751,53 @@ O visitante percebe que existe uma ideia por trás da identidade.
 
 ## Ato III — Princípios
 
-Os valores da EON tornam-se concretos.
+A inspiração ganha estrutura.
 
-A narrativa passa da inspiração para a clareza.
+Os valores da EON tornam-se concretos.
 
 ---
 
 ## Ato IV — Contraste
 
-O ritmo visual muda.
+O ritmo desacelera.
+
+O visitante respira.
 
 A interface ganha profundidade.
 
-Uma pausa prepara o usuário para o convite final.
+---
+
+## Ato V — Revelação
+
+A identidade finalmente é apresentada.
+
+THIS IS...
+
+EON.
+
+A marca deixa de ser um nome.
+
+Passa a representar tudo o que foi construído até aqui.
 
 ---
 
-## Ato V — Convite
+## Ato VI — Convite
 
-O visitante deixa de ser espectador.
+We don't build trends.
 
-Agora ele pode fazer parte da história.
+We build what comes next.
 
-Mais do que vender um produto, a EON convida pessoas para participar de uma ideia.
+Join the Era.
 
----
+O CTA encerra a narrativa.
 
-## Ato VI — Encerramento
-
-O conteúdo termina de forma silenciosa.
-
-Sem excesso de informações.
-
-Sem chamadas agressivas.
-
-A experiência simplesmente encontra seu ponto final.
+Nunca interrompe.
 
 ---
 
 # Linguagem Visual
 
-A identidade da EON deve ser:
+A identidade visual da EON deve ser:
 
 - Minimalista
 - Editorial
@@ -250,10 +810,10 @@ Características principais:
 
 - grandes áreas de respiro;
 - tipografia como elemento central;
-- poucos elementos decorativos;
+- poucos elementos gráficos;
 - alto contraste;
-- forte alinhamento visual;
 - ritmo consistente entre as seções.
+- composição editorial.
 
 ---
 
@@ -289,34 +849,42 @@ Seu papel é apoiar a mensagem sem competir com ela.
 
 # Filosofia das Cores
 
+## Dark Mode
+
+A experiência principal da EON.
+
+Representa:
+
+- descoberta;
+- silêncio;
+- profundidade;
+- futuro.
+
+---
+
+## Light Mode (Planejado)
+
+Uma segunda interpretação da mesma experiência.
+
+Representa:
+
+- clareza;
+- construção;
+- materialização.
+
+Não é uma versão diferente.
+
+É outra perspectiva da mesma narrativa.
+
+---
+
 ## Azul Profundo
 
 Representa:
 
-- profundidade;
+- precisão;
 - inteligência;
 - estabilidade.
-
----
-
-## Cinza Escuro
-
-Representa:
-
-- estrutura;
-- equilíbrio;
-- presença.
-
----
-
-## Branco
-
-Representa:
-
-- silêncio;
-- clareza;
-- espaço;
-- foco.
 
 ---
 
@@ -324,9 +892,21 @@ Representa:
 
 Representa significado.
 
-Nunca deve ser utilizado como elemento decorativo.
+Nunca deve aparecer em excesso.
 
-Seu uso destaca momentos importantes da narrativa.
+Sua função é destacar momentos importantes da narrativa.
+
+---
+
+# Identidade
+
+O símbolo aparece antes da marca.
+
+A marca aparece antes da explicação.
+
+A explicação aparece antes do convite.
+
+Essa sequência nunca deve ser invertida.
 
 ---
 
@@ -336,14 +916,7 @@ O conteúdo nunca deve simplesmente aparecer.
 
 Ele deve ser revelado.
 
-As animações devem transmitir:
-
-- elegância;
-- suavidade;
-- continuidade;
-- naturalidade.
-
-Movimentos preferenciais:
+Prizorizar:
 
 - Fade
 - Reveal
@@ -354,19 +927,23 @@ Evitar:
 
 - Bounce
 - Flash
-- Animações infinitas
-- Movimentos exagerados
+- Loops infinitos
+- Animações exageradas
 
 ---
 
 # Princípios de Composição
 
-Sempre que possível:
+Cada seção deve parecer um novo capítulo.
 
-- utilizar assimetria de forma equilibrada;
-- alternar o ritmo visual entre as seções;
-- criar pausas através do espaço negativo;
-- permitir que cada seção funcione como um novo capítulo da narrativa.
+A Landing nunca deve transmitir repetição.
+
+O ritmo visual alterna entre:
+
+- intensidade;
+- silêncio;
+- pausa;
+- impacto.
 
 ---
 
@@ -376,12 +953,12 @@ A identidade da EON será construída através da repetição de pequenos detalh
 
 Entre eles:
 
-- o logotipo tipográfico;
-- títulos editoriais em grande escala;
-- linhas douradas extremamente discretas;
-- ritmo vertical consistente;
+- EON Symbol;
+- tipografia monumental;
+- linhas douradas discretas;
 - grandes áreas de respiro;
-- uso ocasional da palavra "EON" como elemento gráfico em segundo plano.
+- ritmo editorial;
+- revelação gradual da identidade.
 
 ---
 
@@ -396,13 +973,14 @@ A linguagem deve evitar:
 - clichês de marketing;
 - excesso de adjetivos;
 - promessas vazias;
-- termos da moda.
+- buzzwords.
 
 As frases devem ser:
 
 - curtas;
-- claras;
-- memoráveis.
+- memoráveis;
+- naturais;
+- editoriais.
 
 Cada bloco de texto deve poder ser compreendido rapidamente.
 
@@ -428,29 +1006,27 @@ A experiência deve ser acessível desde o início.
 
 Diretrizes mínimas:
 
-- contraste adequado entre texto e fundo;
+- HTML semântico;
+- contraste adequado;
 - navegação por teclado;
 - indicadores visíveis de foco;
-- HTML semântico;
-- textos alternativos em imagens;
+- textos alternativos;
 - tipografia responsiva;
-- suporte à preferência de redução de movimento.
+- suporte à redução de movimento.
 
 ---
 
 # O que a EON não é
 
-A EON nunca utilizará:
+A EON nunca será:
 
-- Glassmorphism apenas por tendência;
-- gradientes chamativos;
-- sombras exageradas;
-- excesso de ícones;
-- carrosséis automáticos;
-- efeitos tridimensionais sem propósito;
-- animações puramente decorativas;
-- excesso de informações por seção;
-- linguagem publicitária agressiva.
+- apenas mais uma landing;
+- uma vitrine de efeitos;
+- uma coleção de tendências;
+- uma interface barulhenta;
+- uma página institucional comum.
+
+Ela existe para criar uma experiência memorável.
 
 ---
 
@@ -474,11 +1050,11 @@ Nem das cores.
 
 Queremos que ela se lembre da sensação.
 
-Calma.
+Da curiosidade.
 
-Curiosidade.
+Da calma.
 
-Propósito.
+Do propósito.
 
 E da impressão de que acabou de conhecer uma marca construída para permanecer.
 

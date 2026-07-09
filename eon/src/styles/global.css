@@ -3,11 +3,13 @@ html{
 }
 
 body{
-    background: var(--color-white);
+    background: var(--color-background);
+    color: var(--color-text-primary);
+    overflow-x: hidden;
 }
 
 section{
-    padding: var(--space-xxl) 0;
+    padding-block: var(--section-spacing);
 }
 
 img{
@@ -17,6 +19,7 @@ img{
 
 button{
     border: none;
+    background: none;
     cursor: pointer;
     font: inherit;
 }
@@ -24,4 +27,13 @@ button{
 a{
     color: inherit;
     text-decoration: none;
+}
+
+.container{
+    width: min(
+        calc(100% - (var(--container-padding) * 2)),
+        var(--container-max-width)
+    );
+
+    margin-inline: auto;
 }

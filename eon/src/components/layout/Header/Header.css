@@ -1,0 +1,65 @@
+/* ======================================================
+   HEADER
+====================================================== */
+
+.header{
+    position: fixed;
+    inset: 0;
+
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-inline: var(--space-6);
+
+    z-index: var(--z-header);
+
+    pointer-events: none;
+}
+
+/* ======================================================
+   LOGO
+====================================================== */
+
+.header__logo,
+.header__menu{
+    pointer-events: auto;
+}
+
+.header__logo img{
+    display: block;
+
+    width: 48px;
+    height: 48px;
+}
+
+/* ======================================================
+   MENU BUTTON
+====================================================== */
+
+.header__menu{
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    gap: 6px;
+
+    background: transparent;
+}
+
+.header__menu span{
+    display: block;
+
+    width: 28px;
+    height: 2px;
+
+    background: var(--color-text-inverse);
+
+    transition: var(--transition-default);
+}
