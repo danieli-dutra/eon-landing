@@ -1,4 +1,28 @@
 /* ======================================================
+
+Narrative Engine
+
+A lightweight timeline dispatcher.
+
+Responsibilities
+
+✓ Schedule timeline events
+✓ Dispatch events through a callback
+✓ Manage play / stop lifecycle
+
+It does NOT know about:
+
+- React
+- Components
+- Sections
+- Animations
+- CSS
+- Logos
+- Text
+
+====================================================== */
+
+/* ======================================================
    NARRATIVE STATES
 ====================================================== */
 
@@ -6,9 +30,13 @@ export const NarrativeState = Object.freeze({
 
   HIDDEN: "hidden",
 
+  VISIBLE: "visible",
+
   ACTIVE: "active",
 
-  PAST: "past"
+  PAST: "past",
+
+  GONE: "gone"
 
 });
 

@@ -1,17 +1,15 @@
 /* ======================================================
-   QUESTION
+   RESONANCE
 ====================================================== */
 
-.question{
-
+.resonance{
     display:flex;
     align-items:center;
 
     min-height:100vh;
 }
 
-.question .container{
-
+.resonance .container{
     width:100%;
 }
 
@@ -19,49 +17,60 @@
    CONTENT
 ====================================================== */
 
-.question__content{
+.resonance__content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
+    min-height:100vh;
+}
+
+/* ======================================================
+   STAGE
+====================================================== */
+
+.resonance__stage{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 
-    min-height:70vh;
+    width:100%;
 }
 
 /* ======================================================
    QUESTION
 ====================================================== */
 
-.question__text{
-
+.resonance__text{
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content:center;
 
-    gap:1.8rem;
+    min-height:340px;
 }
 
 /* ======================================================
    LINE
 ====================================================== */
 
-.question__line{
+.resonance__line{
+    position:absolute;
+
+    max-width:18ch;
 
     font-family:var(--font-heading);
-
     font-size:clamp(3rem,6vw,5.5rem);
-
     font-weight:var(--font-weight-semibold);
 
-    line-height:1;
+    line-height:1.05;
 
-    letter-spacing:.04em;
-    word-spacing:.06em;
-
-    text-transform:uppercase;
+    letter-spacing:0;
+    word-spacing:.08em;
 
     text-align:center;
+    text-transform:uppercase;
 
     color:var(--color-text-primary);
 
@@ -69,7 +78,7 @@
 
     transform:translateY(16px);
 
-    filter:blur(6px);
+    filter:blur(8px);
 
     transition:
         opacity .9s ease,
@@ -81,8 +90,7 @@
    ACCENT
 ====================================================== */
 
-.question__line--accent{
-
+.resonance__line--accent{
     color:var(--color-accent);
 }
 
@@ -90,20 +98,91 @@
    REVEAL
 ====================================================== */
 
-.question__reveal{
-
-    position:relative;
-
+.resonance__reveal{
     display:flex;
-    justify-content:center;
+    flex-direction:column;
     align-items:center;
+    justify-content:center;
 
-    margin-top:8rem;
+    margin-top:10rem;
+}
+
+/* ======================================================
+   SYMBOL
+====================================================== */
+
+.resonance__symbol{
+    width:72px;
+    height:auto;
 
     opacity:0;
 
-    transition:
-        opacity 1.4s ease;
+    transition:opacity 1.2s ease;
+}
+
+/* ======================================================
+   LOGO
+====================================================== */
+
+.resonance__logo{
+    width:min(320px,70vw);
+    height:auto;
+
+    margin-top:2rem;
+
+    opacity:0;
+
+    transition:opacity 1.2s ease;
+}
+
+/* ======================================================
+   SIGNATURE
+====================================================== */
+
+.resonance__signature{
+    margin-top:2rem;
+
+    font-family:var(--font-body);
+    font-size:.95rem;
+    font-weight:var(--font-weight-medium);
+
+    letter-spacing:.28em;
+
+    text-transform:uppercase;
+
+    color:var(--color-text-secondary);
+
+    opacity:0;
+
+    transition:opacity 1.2s ease;
+}
+
+/* ======================================================
+   NARRATIVE STATES
+====================================================== */
+
+.resonance__line--hidden{
+    opacity:0;
+
+    transform:translateY(16px);
+
+    filter:blur(8px);
+}
+
+.resonance__line--visible{
+    opacity:1;
+
+    transform:translateY(0);
+
+    filter:blur(0);
+}
+
+.resonance__line--gone{
+    opacity:0;
+
+    transform:translateY(-10px);
+
+    filter:blur(3px);
 }
 
 /* ======================================================
@@ -112,14 +191,3 @@
    Reserved for the EON reveal.
 
 ====================================================== */
-
-/* ======================================================
-   LOGO
-====================================================== */
-
-.question__reveal img{
-
-    width:min(380px,70vw);
-
-    height:auto;
-}
