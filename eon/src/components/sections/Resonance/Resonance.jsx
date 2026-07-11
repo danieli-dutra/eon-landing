@@ -60,19 +60,21 @@ const QUESTION = [
    NARRATIVE TIMING
 ====================================================== */
 
-const START_DELAY = 500;
+const START_DELAY = 650;
 
-const TRANSITION = 250;
+const TRANSITION = 350;
 
-const SEE_DURATION = 2200;
-const YOURSELF_DURATION = 2200;
-const HERE_DURATION = 2600;
+const SEE_DURATION = 2600;
+const YOURSELF_DURATION = 2800;
+const HERE_DURATION = 3400;
 
 const SILENCE = 700;
 
 const PRELUDE_DURATION = 900;
 
-const RING_DURATION = 1800;
+const RING_REVEAL_DURATION = 1800;
+
+const RING_HOLD_DURATION = 900;
 
 const LOGO_DURATION = 900;
 
@@ -93,7 +95,9 @@ const PRELUDE_START = HERE_GONE + SILENCE;
 
 const RING_START = PRELUDE_START + PRELUDE_DURATION;
 
-const LOGO_START = RING_START + RING_DURATION;
+const RING_END = RING_START + RING_REVEAL_DURATION;
+
+const LOGO_START = RING_END + RING_HOLD_DURATION;
 
 const RESOLUTION_START = LOGO_START + LOGO_DURATION;
 
@@ -146,16 +150,22 @@ const TIMELINE = [
   },
 
   {
-    at: RING_START,
-    id: NarrativeElements.RING,
-    state: NarrativeState.VISIBLE
-  },
+  at: RING_START,
+  id: NarrativeElements.RING,
+  state: NarrativeState.VISIBLE
+},
 
-  {
-    at: LOGO_START,
-    id: NarrativeElements.LOGO,
-    state: NarrativeState.VISIBLE
-  },
+{
+  at: RING_END,
+  id: NarrativeElements.RING,
+  state: NarrativeState.GONE
+},
+
+{
+  at: LOGO_START,
+  id: NarrativeElements.LOGO,
+  state: NarrativeState.VISIBLE
+},
 
   {
     at: RESOLUTION_START,
@@ -327,74 +337,104 @@ function Resonance() {
             </div>
 
             {/* ======================================================
-                PRELUDE
-            ====================================================== */}
+    PRELUDE
+====================================================== */}
 
-                        <p
-              className="resonance__prelude"
-              style={{
-                opacity:
-                  narrativeState[NarrativeElements.PRELUDE].state ===
-                  NarrativeState.VISIBLE
-                    ? 1
-                    : 0
-              }}
-            >
-              THIS IS...
-            </p>
+<p
+  className="resonance__prelude"
+  style={{
+    opacity:
+      narrativeState[NarrativeElements.PRELUDE].state ===
+      NarrativeState.VISIBLE
+        ? 1
+        : 0
+  }}
+>
+  THIS IS...
+</p>
 
-            {/* ======================================================
-                REVEAL
-            ====================================================== */}
+{/* ======================================================
+    REVEAL
+====================================================== */}
 
-            <div className="resonance__reveal">
+<div className="resonance__reveal">
 
-              <img
-                className="resonance__ring"
-                src={ring}
-                alt=""
-                aria-hidden="true"
-                style={{
-                  opacity:
-                    narrativeState[NarrativeElements.RING].state ===
-                    NarrativeState.VISIBLE
-                      ? 1
-                      : 0
-                }}
-              />
+  {/* ==============================================
+      RING
+  ============================================== */}
 
-              <img
-                className="resonance__logo"
-                src={logo}
-                alt="EON"
-                style={{
-                  opacity:
-                    narrativeState[NarrativeElements.LOGO].state ===
-                    NarrativeState.VISIBLE
-                      ? 1
-                      : 0
-                }}
-              />
+  <img
+  className="resonance__ring"
+  src={ring}
+  alt=""
+  aria-hidden="true"
+  style={{
 
-            </div>
+    opacity:
 
-            {/* ======================================================
-                RESOLUTION
-            ====================================================== */}
+      narrativeState[NarrativeElements.RING].state ===
+      NarrativeState.VISIBLE
 
-            <p
-              className="resonance__resolution"
-              style={{
-                opacity:
-                  narrativeState[NarrativeElements.RESOLUTION].state ===
-                  NarrativeState.VISIBLE
-                    ? 1
-                    : 0
-              }}
-            >
-              THE NEXT <span>ERA</span> HAS
-              ALREADY BEGUN.
-            </p>
+        ? 1
+
+        : 0,
+
+    transform:
+
+      narrativeState[NarrativeElements.RING].state ===
+      NarrativeState.VISIBLE
+
+        ? "scale(1) rotate(360deg)"
+
+        : narrativeState[NarrativeElements.RING].state ===
+          NarrativeState.GONE
+
+            ? "scale(.92) rotate(430deg)"
+
+            : "scale(.55) rotate(0deg)"
+
+  }}
+/>
+
+  {/* ==============================================
+      LOGO
+  ============================================== */}
+
+  <img
+    className="resonance__logo"
+    src={logo}
+    alt="EON"
+    style={{
+
+      opacity:
+        narrativeState[NarrativeElements.LOGO].state ===
+        NarrativeState.VISIBLE
+          ? 1
+          : 0
+
+    }}
+  />
+
+</div>
+
+{/* ======================================================
+    RESOLUTION
+====================================================== */}
+
+<p
+  className="resonance__resolution"
+  style={{
+
+    opacity:
+      narrativeState[NarrativeElements.RESOLUTION].state ===
+      NarrativeState.VISIBLE
+        ? 1
+        : 0
+
+  }}
+>
+  THE NEXT <span>ERA</span> HAS ALREADY BEGUN.
+</p>
 
                       </div>
 
