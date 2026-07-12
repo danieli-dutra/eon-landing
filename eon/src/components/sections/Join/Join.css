@@ -268,6 +268,14 @@
         0 12px 32px rgba(36,47,64,.25);
 }
 
+.join__button:disabled{
+    opacity:.7;
+
+    cursor:wait;
+
+    pointer-events:none;
+}
+
 .join__button:active{
     transform:translateY(0);
 }

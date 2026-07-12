@@ -31,6 +31,35 @@ const COPY = Object.freeze({
 
 });
 
+/* ======================================================
+   SUCCESS COPY
+====================================================== */
+
+const SUCCESS_COPY = Object.freeze({
+
+  TITLE: "Your signal has been received.",
+
+  INTRO: [
+    "The next conversation",
+    "starts sooner than you think."
+  ],
+
+  MIDDLE: "Until then...",
+
+  VALUES: [
+    "Keep questioning.",
+    "Keep imagining.",
+    "Stay curious."
+  ],
+
+  END: [
+    "When it's time,",
+    "we'll want to hear",
+    "what you'll bring."
+  ]
+
+});
+
 function Join() {
 
   /* ======================================================
@@ -58,6 +87,12 @@ function Join() {
     [FORM_FIELDS.EMAIL]: ""
 
   });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const [isSuccess, setIsSuccess] = useState(false);
+
+  const [error, setError] = useState("");
 
   /* ======================================================
      START NARRATIVE
@@ -137,13 +172,77 @@ function Join() {
      TEMP SUBMIT
   ====================================================== */
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
 
-    event.preventDefault();
+  event.preventDefault();
 
-    console.log(formData);
+  setIsSubmitting(true);
+
+  setError("");
+
+  try {
+
+    const response = await fetch(
+
+      "https://formspree.io/f/xqerkzjk",
+
+      {
+
+        method: "POST",
+
+        headers: {
+
+          "Content-Type": "application/json",
+
+          Accept: "application/json"
+
+        },
+
+        body: JSON.stringify({
+
+          name: formData.name,
+
+          email: formData.email
+
+        })
+
+      }
+
+    );
+
+    if (!response.ok) {
+
+      throw new Error("Submission failed.");
+
+    }
+
+    setIsSuccess(true);
+
+    setFormData({
+
+      name: "",
+
+      email: ""
+
+    });
+
+  } catch (error) {
+
+    console.error(error);
+
+    setError(
+
+      "Something went wrong. Please try again."
+
+    );
+
+  } finally {
+
+    setIsSubmitting(false);
 
   }
+
+}
 
     return (
 
@@ -157,7 +256,7 @@ function Join() {
 
         <div className="join__content">
 
-          {/* ======================================================
+                  {/* ======================================================
               HEADER
           ====================================================== */}
 
@@ -204,88 +303,103 @@ function Join() {
           </header>
 
           {/* ======================================================
-              FORM
+              CONTENT
           ====================================================== */}
 
-          <form
-            className={`join__form ${
-              formVisible
-                ? "join__form--visible"
-                : ""
-            }`}
-            onSubmit={handleSubmit}
-          >
+          {isSuccess ? (
 
-            {/* ==============================================
-                NAME
-            ============================================== */}
+            <div className="join__success">
 
-            <div className="join__field">
-
-              <label
-                htmlFor={FORM_FIELDS.NAME}
-                className="join__label"
-              >
-
-                Name
-
-              </label>
-
-              <input
-                id={FORM_FIELDS.NAME}
-                name={FORM_FIELDS.NAME}
-                type="text"
-                className="join__input"
-                autoComplete="name"
-                value={formData[FORM_FIELDS.NAME]}
-                onChange={handleChange}
-                required
-              />
+              {/* Success message será adicionada na próxima etapa */}
 
             </div>
 
-            {/* ==============================================
-                EMAIL
-            ============================================== */}
+          ) : (
 
-            <div className="join__field">
-
-              <label
-                htmlFor={FORM_FIELDS.EMAIL}
-                className="join__label"
-              >
-
-                Email
-
-              </label>
-
-              <input
-                id={FORM_FIELDS.EMAIL}
-                name={FORM_FIELDS.EMAIL}
-                type="email"
-                className="join__input"
-                autoComplete="email"
-                value={formData[FORM_FIELDS.EMAIL]}
-                onChange={handleChange}
-                required
-              />
-
-            </div>
-
-            {/* ==============================================
-                CTA
-            ============================================== */}
-
-            <button
-              type="submit"
-              className="join__button"
+            <form
+              className={`join__form ${
+                formVisible
+                  ? "join__form--visible"
+                  : ""
+              }`}
+              onSubmit={handleSubmit}
             >
 
-              {COPY.BUTTON}
+              {/* ==============================================
+                  NAME
+              ============================================== */}
 
-            </button>
+              <div className="join__field">
 
-          </form>
+                <label
+                  htmlFor={FORM_FIELDS.NAME}
+                  className="join__label"
+                >
+
+                  Name
+
+                </label>
+
+                <input
+                  id={FORM_FIELDS.NAME}
+                  name={FORM_FIELDS.NAME}
+                  type="text"
+                  className="join__input"
+                  autoComplete="name"
+                  value={formData[FORM_FIELDS.NAME]}
+                  onChange={handleChange}
+                  required
+                />
+
+              </div>
+
+              {/* ==============================================
+                  EMAIL
+              ============================================== */}
+
+              <div className="join__field">
+
+                <label
+                  htmlFor={FORM_FIELDS.EMAIL}
+                  className="join__label"
+                >
+
+                  Email
+
+                </label>
+
+                <input
+                  id={FORM_FIELDS.EMAIL}
+                  name={FORM_FIELDS.EMAIL}
+                  type="email"
+                  className="join__input"
+                  autoComplete="email"
+                  value={formData[FORM_FIELDS.EMAIL]}
+                  onChange={handleChange}
+                  required
+                />
+
+              </div>
+
+              {/* ==============================================
+                  CTA
+              ============================================== */}
+
+              <button
+                type="submit"
+                className="join__button"
+                disabled={isSubmitting}
+              >
+
+                {isSubmitting
+                  ? "SENDING..."
+                  : COPY.BUTTON}
+
+              </button>
+
+            </form>
+
+          )}
 
         </div>
 
