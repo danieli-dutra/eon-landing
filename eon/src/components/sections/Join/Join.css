@@ -1,0 +1,234 @@
+/* ======================================================
+   JOIN
+====================================================== */
+
+.join{
+    display:flex;
+    align-items:center;
+
+    padding:10rem 0 12rem;
+}
+
+.join .container{
+    width:100%;
+}
+
+/* ======================================================
+   CONTENT
+====================================================== */
+
+.join__content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    width:min(720px,100%);
+    margin:0 auto;
+
+    text-align:center;
+}
+
+/* ======================================================
+   HEADER
+====================================================== */
+
+.join__header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    gap:2.5rem;
+
+    margin-bottom:5rem;
+}
+
+/* ======================================================
+   TITLE
+====================================================== */
+
+.join__title{
+    display:flex;
+    flex-direction:column;
+
+    gap:.5rem;
+}
+
+.join__title-line{
+    display:block;
+
+    font-family:var(--font-heading);
+    font-size:clamp(3.2rem,6vw,5.8rem);
+    font-weight:var(--font-weight-semibold);
+
+    line-height:1;
+
+    text-transform:uppercase;
+
+    color:var(--color-text-primary);
+}
+
+/* ======================================================
+   SUBTITLE
+====================================================== */
+
+.join__subtitle{
+    max-width:560px;
+
+    font-family:var(--font-body);
+    font-size:clamp(1.2rem,2vw,1.5rem);
+    font-weight:var(--font-weight-medium);
+
+    line-height:1.6;
+
+    color:var(--color-text-secondary);
+}
+
+/* ======================================================
+   FORM
+====================================================== */
+
+.join__form{
+    width:min(520px,100%);
+
+    display:flex;
+    flex-direction:column;
+
+    gap:2.75rem;
+}
+
+/* ======================================================
+   FIELD
+====================================================== */
+
+.join__field{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+
+    gap:.9rem;
+}
+
+/* ======================================================
+   LABEL
+====================================================== */
+
+.join__label{
+    font-family:var(--font-body);
+    font-size:.9rem;
+    font-weight:var(--font-weight-medium);
+
+    letter-spacing:.12em;
+    text-transform:uppercase;
+
+    color:var(--color-text-secondary);
+}
+
+/* ======================================================
+   INPUT
+====================================================== */
+
+.join__input{
+    width:100%;
+
+    padding:0 0 .9rem;
+
+    background:transparent;
+
+    border:none;
+    border-bottom:1px solid rgba(255,255,255,.16);
+
+    font-family:var(--font-body);
+    font-size:1.05rem;
+
+    color:var(--color-text-primary);
+
+    transition:
+        border-color .35s ease,
+        color .35s ease;
+}
+
+.join__input::placeholder{
+    color:rgba(255,255,255,.30);
+}
+
+.join__input:focus{
+    outline:none;
+
+    border-bottom-color:var(--color-accent);
+}
+
+/* ======================================================
+   BUTTON
+====================================================== */
+
+.join__button{
+    margin-top:1.5rem;
+
+    align-self:center;
+
+    min-width:240px;
+
+    padding:1rem 2.8rem;
+
+    border:none;
+    border-radius:14px;
+
+    background:var(--color-primary);
+
+    color:var(--color-text-primary);
+
+    font-family:var(--font-body);
+    font-size:.95rem;
+    font-weight:700;
+
+    letter-spacing:.18em;
+    text-transform:uppercase;
+
+    cursor:pointer;
+
+    transition:
+        transform .35s ease,
+        background .35s ease,
+        color .35s ease,
+        box-shadow .35s ease;
+}
+
+.join__button:hover{
+    background:var(--color-accent);
+
+    color:var(--color-primary);
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 12px 32px rgba(36,47,64,.25);
+}
+
+.join__button:active{
+    transform:translateY(0);
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width:768px){
+
+    .join{
+        padding:8rem 0;
+    }
+
+    .join__header{
+        gap:2rem;
+        margin-bottom:4rem;
+    }
+
+    .join__form{
+        gap:2.25rem;
+    }
+
+    .join__button{
+        width:100%;
+    }
+
+}
