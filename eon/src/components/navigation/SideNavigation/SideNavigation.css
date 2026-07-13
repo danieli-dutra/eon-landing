@@ -3,6 +3,8 @@
 ====================================================== */
 
 .side-navigation{
+    --nav-axis: 5px;
+
     position: fixed;
 
     top: 50%;
@@ -41,7 +43,7 @@
 
     position: absolute;
 
-    left: 5px;
+    left: var(--nav-axis);
     top: 18px;
 
     width: 1px;
@@ -62,7 +64,10 @@
 
     color: rgba(255,255,255,.55);
 
-    transition: var(--transition-default);
+    transition:
+        color .45s ease,
+
+        opacity .45s ease;
 }
 
 /* ======================================================
@@ -78,13 +83,44 @@
     height: 10px;
 
     border: 1px solid var(--color-accent);
+
     border-radius: 50%;
 
     background: var(--color-background);
 
     flex-shrink: 0;
 
-    transition: var(--transition-default);
+    transition:
+
+        background .45s ease,
+
+        border-color .45s ease,
+
+        transform .45s ease,
+
+        box-shadow .45s ease;
+}
+
+/* ======================================================
+   INDICATOR
+====================================================== */
+
+.side-navigation__indicator{
+    position:absolute;
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+
+    background:var(--color-accent);
+
+    box-shadow:
+        0 0 8px rgba(204,164,59,.25);
+
+    pointer-events:none;
+
+    z-index:4;
 }
 
 /* ======================================================
@@ -97,6 +133,40 @@
     letter-spacing: var(--letter-spacing-wide);
 
     text-transform: uppercase;
+
+    opacity: .55;
+
+    transition:
+
+        color .45s ease,
+
+        opacity .45s ease;
+}
+
+/* ======================================================
+   ACTIVE
+====================================================== */
+
+.side-navigation__link--active{
+
+    color: var(--color-accent);
+
+}
+
+.side-navigation__link--active
+.side-navigation__label{
+
+    color: var(--color-accent);
+
+    opacity: 1;
+
+}
+
+.side-navigation__link--active
+.side-navigation__dot{
+    border-color: var(--color-accent);
+
+    background: var(--color-background);
 }
 
 /* ======================================================
@@ -107,6 +177,57 @@
     color: var(--color-text-inverse);
 }
 
-.side-navigation__link:hover .side-navigation__dot{
+.side-navigation__link:hover
+.side-navigation__label{
+    opacity: .85;
+}
+
+.side-navigation__link:hover
+.side-navigation__dot{
     background: var(--color-accent);
+
+    transform: scale(1.1);
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+/*
+1280px
+Navigation labels begin to compete with page content.
+Collapse labels to icon-only navigation.
+*/
+
+@media (max-width: 1280px){
+
+    .side-navigation__label{
+
+        display: none;
+
+    }
+
+    .side-navigation{
+
+        right: var(--space-5);
+
+    }
+
+}
+
+/*
+900px
+Side navigation becomes unnecessary and reduces
+the available content area.
+Hide navigation.
+*/
+
+@media (max-width: 900px){
+
+    .side-navigation{
+
+        display: none;
+
+    }
+
 }
