@@ -112,7 +112,7 @@
 
     gap:var(--space-7);
 
-    width:min(1100px, calc(100% - 180px));
+    width:min(1100px, 100%);
 
     margin-inline:auto;
 }
@@ -256,4 +256,20 @@
     transform:scale(1.08);
 
     filter:drop-shadow(0 0 10px rgba(204,164,59,.18));
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 825px){
+
+    .pillars__grid{
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: var(--space-8);
+
+    }
+
 }

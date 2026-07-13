@@ -304,3 +304,55 @@
     }
 
 }
+
+@media (max-width:480px){
+
+    .join{
+
+        padding:6rem 0;
+
+    }
+
+    .join__header{
+
+        gap:1.5rem;
+
+        margin-bottom:3rem;
+
+    }
+
+    .join__title-line--single{
+
+        white-space:normal;
+
+        line-height:1.15;
+
+    }
+
+    .join__subtitle{
+
+        max-width:100%;
+
+    }
+
+    .join__form{
+
+        gap:2rem;
+
+    }
+
+    .join__button{
+
+        min-width:100%;
+
+    }
+
+}
+
+.join__content{
+
+        width:100%;
+
+        padding-inline:var(--space-4);
+
+    }

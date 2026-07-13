@@ -78,7 +78,6 @@
 ====================================================== */
 
 .availability__statement{
-
     max-width: 28ch;
 
     font-family: var(--font-heading);
@@ -116,7 +115,6 @@
 ====================================================== */
 
 .availability__statement--hidden{
-
     opacity:0;
 
     transform:translateY(24px) scale(.96);
@@ -125,7 +123,6 @@
 }
 
 .availability__statement--active{
-
     opacity: 1;
 
     transform: translateY(0) scale(1);
@@ -140,7 +137,6 @@
 ====================================================== */
 
 .availability__statement--past{
-
     opacity: .3;
 
     transform: translateY(-12px) scale(.97);
@@ -148,4 +144,44 @@
     filter: blur(0);
 
     color: var(--color-text-secondary);
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width:600px){
+
+    .availability__content{
+
+        gap: var(--space-4);
+
+        max-width:100%;
+
+    }
+
+    .availability__statement{
+
+        width:100%;
+
+        max-width:44ch;
+
+        margin-inline:auto;
+
+        word-spacing:normal;
+
+    }
+
+    .availability__statement--past{
+
+        transform: translateY(-6px) scale(.98);
+
+    }
+
+    .availability__eyebrow-line{
+
+        width:40px;
+
+    }
+
 }
