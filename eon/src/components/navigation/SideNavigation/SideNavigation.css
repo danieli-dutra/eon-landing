@@ -3,6 +3,8 @@
 ====================================================== */
 
 .side-navigation{
+    --nav-axis: 5px;
+
     position: fixed;
 
     top: 50%;
@@ -41,7 +43,7 @@
 
     position: absolute;
 
-    left: 5px;
+    left: var(--nav-axis);
     top: 18px;
 
     width: 1px;
@@ -100,6 +102,28 @@
 }
 
 /* ======================================================
+   INDICATOR
+====================================================== */
+
+.side-navigation__indicator{
+    position:absolute;
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+
+    background:var(--color-accent);
+
+    box-shadow:
+        0 0 8px rgba(204,164,59,.25);
+
+    pointer-events:none;
+
+    z-index:4;
+}
+
+/* ======================================================
    LABEL
 ====================================================== */
 
@@ -140,17 +164,9 @@
 
 .side-navigation__link--active
 .side-navigation__dot{
-
-    background: var(--color-accent);
-
     border-color: var(--color-accent);
 
-    transform: scale(1.2);
-
-    box-shadow:
-
-        0 0 10px rgba(204,164,59,.28);
-
+    background: var(--color-background);
 }
 
 /* ======================================================

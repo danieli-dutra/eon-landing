@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { createScrollEngine } from "../../../lib/scrollEngine";
 
@@ -43,6 +43,14 @@ function SideNavigation() {
 
   const [activeSection, setActiveSection] = useState("hero");
 
+  const navRef = useRef(null);
+
+  const indicatorRef = useRef(null);
+
+  /* ======================================================
+     SCROLL ENGINE
+  ====================================================== */
+
   useEffect(() => {
 
     const elements = sections
@@ -68,12 +76,66 @@ function SideNavigation() {
 
   }, []);
 
+  /* ======================================================
+     INDICATOR
+  ====================================================== */
+
+  useEffect(() => {
+
+    const nav = navRef.current;
+
+    const indicator = indicatorRef.current;
+
+    if (!nav || !indicator) {
+
+      return;
+
+    }
+
+    const activeDot = nav.querySelector(
+
+      ".side-navigation__link--active .side-navigation__dot"
+
+    );
+
+    if (!activeDot) {
+
+      return;
+
+    }
+
+    const navRect = nav.getBoundingClientRect();
+
+    const dotRect = activeDot.getBoundingClientRect();
+
+    indicator.style.left =
+      `${dotRect.left - navRect.left + dotRect.width / 2}px`;
+
+    indicator.style.top =
+      `${dotRect.top - navRect.top + dotRect.height / 2}px`;
+
+    indicator.style.transform =
+      "translate(-50%, -50%)";
+
+  }, [activeSection]);
+
+  /* ======================================================
+     RENDER
+  ====================================================== */
+
   return (
 
     <nav
+      ref={navRef}
       className="side-navigation"
       aria-label="Page navigation"
     >
+
+      <div
+        ref={indicatorRef}
+        className="side-navigation__indicator"
+        aria-hidden="true"
+      />
 
       <ul className="side-navigation__list">
 
