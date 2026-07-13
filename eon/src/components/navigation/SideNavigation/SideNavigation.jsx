@@ -9,30 +9,12 @@ import "./SideNavigation.css";
 ====================================================== */
 
 const sections = [
-  {
-    id: "hero",
-    label: "INTRO",
-  },
-  {
-    id: "manifesto",
-    label: "MANIFESTO",
-  },
-  {
-    id: "principles",
-    label: "PRINCIPLES",
-  },
-  {
-    id: "availability",
-    label: "AVAILABILITY",
-  },
-  {
-    id: "resonance",
-    label: "RESONANCE",
-  },
-  {
-    id: "join",
-    label: "JOIN",
-  },
+  { id: "hero", label: "INTRO" },
+  { id: "manifesto", label: "MANIFESTO" },
+  { id: "principles", label: "PRINCIPLES" },
+  { id: "availability", label: "AVAILABILITY" },
+  { id: "resonance", label: "RESONANCE" },
+  { id: "join", label: "JOIN" },
 ];
 
 /* ======================================================
@@ -77,47 +59,107 @@ function SideNavigation() {
   }, []);
 
   /* ======================================================
-     INDICATOR
-  ====================================================== */
+   INDICATOR
+====================================================== */
 
-  useEffect(() => {
+useEffect(() => {
 
-    const nav = navRef.current;
+  const nav = navRef.current;
 
-    const indicator = indicatorRef.current;
+  const indicator = indicatorRef.current;
 
-    if (!nav || !indicator) {
+  if (!nav || !indicator) {
 
-      return;
+    return;
 
-    }
+  }
 
-    const activeDot = nav.querySelector(
+  const activeDot = nav.querySelector(
 
-      ".side-navigation__link--active .side-navigation__dot"
+    ".side-navigation__link--active .side-navigation__dot"
 
-    );
+  );
 
-    if (!activeDot) {
+  if (!activeDot) {
 
-      return;
+    return;
 
-    }
+  }
 
-    const navRect = nav.getBoundingClientRect();
+  const navRect = nav.getBoundingClientRect();
 
-    const dotRect = activeDot.getBoundingClientRect();
+  const dotRect = activeDot.getBoundingClientRect();
 
-    indicator.style.left =
-      `${dotRect.left - navRect.left + dotRect.width / 2}px`;
+  const left =
+    dotRect.left -
+    navRect.left +
+    dotRect.width / 2;
 
-    indicator.style.top =
-      `${dotRect.top - navRect.top + dotRect.height / 2}px`;
+  const top =
+    dotRect.top -
+    navRect.top +
+    dotRect.height / 2;
+
+  /* Primeira execução */
+
+  if (!indicator.dataset.initialized) {
+
+    indicator.style.left = `${left}px`;
+
+    indicator.style.top = `${top}px`;
 
     indicator.style.transform =
       "translate(-50%, -50%)";
 
-  }, [activeSection]);
+    indicator.dataset.initialized = "true";
+
+    return;
+
+  }
+
+  /* Caminhada */
+
+  indicator.animate(
+
+    [
+
+      {
+
+        left: indicator.style.left,
+
+        top: indicator.style.top
+
+      },
+
+      {
+
+        left: `${left}px`,
+
+        top: `${top}px`
+
+      }
+
+    ],
+
+    {
+
+      duration: 450,
+
+      easing: "cubic-bezier(.22,.61,.36,1)",
+
+      fill: "forwards"
+
+    }
+
+  ).finished.then(() => {
+
+    indicator.style.left = `${left}px`;
+
+    indicator.style.top = `${top}px`;
+
+  });
+
+}, [activeSection]);
 
   /* ======================================================
      RENDER

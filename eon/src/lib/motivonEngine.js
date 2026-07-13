@@ -38,6 +38,7 @@ export const MotionPreset = Object.freeze({
   FADE: {
 
     keyframes: [
+
       {
         opacity: 0
       },
@@ -45,14 +46,17 @@ export const MotionPreset = Object.freeze({
       {
         opacity: 1
       }
+
     ],
 
     options: {
+
       duration: DEFAULT_DURATION,
 
       easing: DEFAULT_EASING,
 
       fill: "forwards"
+
     }
 
   },
@@ -62,25 +66,31 @@ export const MotionPreset = Object.freeze({
     keyframes: [
 
       {
+
         opacity: 0,
 
         transform: "translateY(24px)"
+
       },
 
       {
+
         opacity: 1,
 
         transform: "translateY(0)"
+
       }
 
     ],
 
     options: {
+
       duration: DEFAULT_DURATION,
 
       easing: DEFAULT_EASING,
 
       fill: "forwards"
+
     }
 
   },
@@ -90,25 +100,33 @@ export const MotionPreset = Object.freeze({
     keyframes: [
 
       {
+
         transform: "scale(1)"
+
       },
 
       {
+
         transform: "scale(1.35)"
+
       },
 
       {
+
         transform: "scale(1)"
+
       }
 
     ],
 
     options: {
+
       duration: 220,
 
       easing: "ease-out",
 
       fill: "none"
+
     }
 
   }
