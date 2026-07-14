@@ -1,8 +1,4 @@
-# EON — Narrative Blueprint
-
-> Versão: 1.0
-> Status: Oficial
-> Última atualização: Julho de 2026
+# EON | Narrative Blueprint
 
 ---
 
@@ -14,7 +10,7 @@ Ele não descreve layout, design ou implementação técnica.
 
 Ele responde apenas uma pergunta:
 
-> **Qual história queremos que o visitante viva?**
+> **Qual experiência narrativa queremos construir para quem visita a EON?**
 
 Toda decisão de copywriting, UX, UI, animação e desenvolvimento deve reforçar essa narrativa.
 
@@ -129,75 +125,75 @@ Cada capítulo possui uma única função dramática.
 
 ---
 
-# Capítulo I — Hero
+# Hero
 
-## Ação Dramática
+### Ação Dramática
 
-Despertar.
+- Despertar.
 
-## O visitante pensa
+### O visitante pensa
 
-"O que é isso?"
+- "O que é isso?"
 
-## O visitante sente
+### O visitante sente
 
-Curiosidade.
+- Curiosidade.
 
-Silêncio.
+- Silêncio.
 
-Expectativa.
+- Expectativa.
 
-## O que NÃO deve acontecer
+### O que NÃO deve acontecer
 
-Explicações.
+- Explicações.
 
-Argumentos.
+- Argumentos.
 
-Detalhamento.
+- Detalhamento.
 
-Nada deve interromper a curiosidade.
-
----
-
-# Capítulo II — Manifesto
-
-## Ação Dramática
-
-Confrontar.
-
-## O visitante pensa
-
-"É verdade."
-
-## Objetivo
-
-Apresentar primeiro o problema do mundo.
-
-Só depois revelar a visão da EON.
-
-O manifesto nunca começa falando da empresa.
-
-Ele começa falando da realidade.
+- Nada deve interromper a curiosidade.
 
 ---
 
-# Capítulo III — Principles
+# Manifesto
 
-## Ação Dramática
+### Ação Dramática
 
-Convencer.
+- Confrontar.
 
 ## O visitante pensa
 
-"Essas decisões fazem sentido."
+- "É verdade."
 
-## Objetivo
+### Objetivo
 
-Os princípios não são slogans.
+- Apresentar primeiro o problema do mundo.
 
-São critérios.
+- Só depois revelar a visão da EON.
 
-Eles mostram como a filosofia da EON se transforma em decisões concretas.
+- O manifesto nunca começa falando da empresa.
+
+- Ele começa falando da realidade.
+
+---
+
+# Principles
+
+### Ação Dramática
+
+- Convencer.
+
+### O visitante pensa
+
+- "Essas decisões fazem sentido."
+
+### Objetivo
+
+- Os princípios não são slogans.
+
+- São critérios.
+
+- Eles mostram como a filosofia da EON se transforma em decisões concretas.
 
 Cada princípio deve responder:
 
@@ -205,21 +201,21 @@ Cada princípio deve responder:
 
 ---
 
-# Capítulo IV — Availability
+# Availability
 
-## Ação Dramática
+### Ação Dramática
 
-Selecionar.
+- Selecionar.
 
-## O visitante pensa
+### O visitante pensa
 
-"Talvez exista espaço para mim."
+- "Talvez exista espaço para mim."
 
-## Objetivo
+### Objetivo
 
-Esta seção não comunica disponibilidade.
+- Esta seção não comunica disponibilidade.
 
-Ela comunica intenção.
+- Ela comunica intenção.
 
 A mensagem não é:
 
@@ -233,49 +229,48 @@ Isso transforma um convite em pertencimento.
 
 ---
 
-# Capítulo V — Join
+# Resonance
 
-## Ação Dramática
+### Ação Dramática
 
-Convidar.
+- Revelar.
 
-## O visitante pensa
+### O visitante pensa
 
-"Quero fazer parte."
+- "Agora eu entendo."
 
-## Objetivo
+### Objetivo
 
-O CTA não representa uma venda.
+- Resonance representa o momento de convergência da narrativa.
 
-Representa uma decisão.
+- As ideias apresentadas nas seções anteriores deixam de existir de forma isolada e passam a formar uma identidade única.
 
-O visitante deixa de observar.
+- A revelação da marca não serve para apresentar um logotipo.
 
-Agora ele participa.
+- Ela existe para dar significado a tudo o que foi vivido até aqui.
 
----
+- Quando a identidade visual aparece, ela já foi construída emocionalmente pela experiência.
 
-# Capítulo VI — This is EON
 
-## Ação Dramática
+# Join
 
-Revelar.
+### Ação Dramática
 
-## Objetivo
+- Convidar.
 
-Somente agora a identidade completa da marca aparece.
+### O visitante pensa
 
-A logomarca deixa de ser apenas um símbolo.
+- "Quero fazer parte."
 
-Ela ganha significado.
+### Objetivo
 
-O visitante entende que a EON nunca foi apenas um nome.
+- A experiência termina com um convite.
 
-Ela representa tudo o que acabou de experimentar.
+- O visitante deixa de ser apenas espectador e recebe a oportunidade de continuar essa história.
 
-A revelação deve produzir uma sensação de conclusão.
+- O formulário não representa uma conversão tradicional.
 
-Como o último plano de um filme.
+- Ele simboliza a decisão de participar.
 
 ---
 
@@ -287,11 +282,11 @@ Curiosidade
 
 ↓
 
-Estranhamento
+Reflexão
 
 ↓
 
-Reflexão
+Compreensão
 
 ↓
 
@@ -299,19 +294,15 @@ Identificação
 
 ↓
 
-Confiança
-
-↓
-
 Pertencimento
 
 ↓
 
-Convite
+Revelação
 
 ↓
 
-Memória
+Convite
 
 Cada emoção prepara a próxima.
 
@@ -344,38 +335,32 @@ A Landing responde perguntas lentamente.
 Cada resposta gera uma nova pergunta.
 
 Hero
-
-"Quem são eles?"
+> "Quem são eles?"
 
 ↓
 
 Manifesto
-
-"Por que pensam assim?"
+> "Por que pensam assim?"
 
 ↓
 
 Principles
-
-"Como colocam isso em prática?"
+> "Como colocam isso em prática?"
 
 ↓
 
 Availability
+> "Existe espaço para mim?"
 
-"Existe espaço para mim?"
+↓
+
+Resonance
+> "Agora eu entendo."
 
 ↓
 
 Join
-
-"Quero participar."
-
-↓
-
-This is EON.
-
-Agora tudo faz sentido.
+> "Quero continuar essa história."
 
 ---
 
