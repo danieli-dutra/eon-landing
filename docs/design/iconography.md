@@ -1,6 +1,10 @@
 
 # EON | Iconography
 
+<p align="center">
+  <img src="../media/symbolic-language.svg" alt="EON Symbolic Language" width="100%">
+</p>
+
 
 # O que este documento responde?
 
